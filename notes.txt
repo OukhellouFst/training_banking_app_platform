@@ -12,4 +12,7 @@
     - Sentry: enterprise level application monitoring software to secure our banking app. ( session reply to get to the root cause of an issue). 
 3. steps : 
     3.1. start by shadcn/ui : 
-        * npx shadcn@latest init -d
+        * create next app in the current repository : npx create-next-app@latest ./ --typescript --tailwind --eslint 
+        * install shad cn : npx shadcn@latest init -d
+        * set up the font : 
+        * set up the tailwind.config.js

@@ -36,3 +36,7 @@
         * lib/utils.ts : use chatgpt to generate it (formatting the date/formatting the amount/paresing the strings/removing special characters...)
         * constants/index.ts : constants like sidebar links + mock data.
         * app/globals.css : importing the tailwind and make some modifications to our base styles + implementing additional special styles that cannot easily be done with tailwind + @utilities for repeated styles (inputs..) 
+    3.6. app>layout.tsx 
+        * import different fonts : Inter & IBM_Plex_Serif  from next/font/google.
+        * change the metadata : title + description + incon.
+        * the root element to contain a className with varaibles of previous 2 fonts - to use those 2 fonts accross the entire application.

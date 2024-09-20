@@ -40,3 +40,16 @@
         * import different fonts : Inter & IBM_Plex_Serif  from next/font/google.
         * change the metadata : title + description + incon.
         * the root element to contain a className with varaibles of previous 2 fonts - to use those 2 fonts accross the entire application.
+    3.7. create home page : 
+        * layout is a specific ui that you can see across multiple pages : sidebars,...
+        * Next's Route Groups : file based routing : https://nextjs.org/docs/app/building-your-application/routing/route-groups
+        * for implementing nested layout : we wrap the folder with parenthises.
+        * need to use shared layout with other pages - for this reason with are going to use the next's special functionnality :  Route Groups.
+        * implementations : 
+            - delete pages.tsx.
+            - create folder called : (root)
+            - inside this folder create : page.tsx (simple component)
+            - inside this folder create a shared layout : layout.tsx (simple compoent sidebar + children) 
+            - create another folder called : (auth) with its layout and page.
+            - inside the auth folder create 2 folders containing the pages sign-in and sign-up
+            - run the application : npm run dev 

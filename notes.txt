@@ -1,0 +1,15 @@
+1. Purpose / the project idea : 
+    - my object behind building this banking platform app using react and next js and following the javascript mastery youtube channel course is to learn new modern developpement methods. 
+    - the link of the course : https://www.youtube.com/watch?v=DwbwuYYiBTk&t=40737s&ab_channel=JavaScriptMastery
+2. Requirements : 
+    - React. 
+    - Next js - on top of react, most convinient choice framework for the web: building high quality application with the power of react components.
+    - Plaid : baking functionnalites, one of the world leading power banking apis. this allow to turn this application to real banking application( not the budget tracked we see in other tutorials). we use plaid sandbox mode for buidling banking functionnalites.
+    - appwrite : when it comes to mergin those transcations to our real database. this completly open source tool allow us to build the entire backend withi minutes and scale it effortlessly  
+    - Chart.js : to display the statistics and different type of charts
+    - tailwind css : utility-first for css framework to style our app components.
+    - shadcn/ui : a component library to power our tailwind css (simple buttons, alerts, ...). 
+    - Sentry: enterprise level application monitoring software to secure our banking app. ( session reply to get to the root cause of an issue). 
+3. steps : 
+    3.1. start by shadcn/ui : 
+        * npx shadcn@latest init -d

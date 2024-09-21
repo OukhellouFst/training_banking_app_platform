@@ -55,3 +55,7 @@
     3.8. implementation of home page : 
         * apply the style home of golbal.css to home page.
         * add a component of the box header with props declared in types.
+        * add a component for the total balance with dynamic props 
+            - ( accounts, total banks, totalCurrent balance,...)
+            - to add the effect of counting up to the amount of balance we are using react-countup component : npm i --save-dev react-countup
+            - but the react-countup component uses useRef hook which works in client side - for this reason we going to create component AnimatedCount and we add the directive use client at the top of the file.

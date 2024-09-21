@@ -11,9 +11,8 @@
     - shadcn/ui : a component library to power our tailwind css (simple buttons, alerts, ...). 
     - Sentry: enterprise level application monitoring software to secure our banking app. ( session reply to get to the root cause of an issue). 
 3. useful links : 
-- 🎨 Horizon Design Figma File: https://resource.jsmastery.pro/banking-app
-- 🧭 Logical Flow Diagram Fijam File: https://resource.jsmastery.pro/banking-app-flow
-
+    - 🎨 Horizon Design Figma File: https://resource.jsmastery.pro/banking-app
+    - 🧭 Logical Flow Diagram Fijam File: https://resource.jsmastery.pro/banking-app-flow
 3. steps : 
     3.1. start by shadcn/ui : 
         * create next app in the current repository : npx create-next-app@latest ./ --typescript --tailwind --eslint 
@@ -53,3 +52,6 @@
             - create another folder called : (auth) with its layout and page.
             - inside the auth folder create 2 folders containing the pages sign-in and sign-up
             - run the application : npm run dev 
+    3.8. implementation of home page : 
+        * apply the style home of golbal.css to home page.
+        * add a component of the box header with props declared in types.

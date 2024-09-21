@@ -59,3 +59,7 @@
             - ( accounts, total banks, totalCurrent balance,...)
             - to add the effect of counting up to the amount of balance we are using react-countup component : npm i --save-dev react-countup
             - but the react-countup component uses useRef hook which works in client side - for this reason we going to create component AnimatedCount and we add the directive use client at the top of the file.
+        * add the doughnut chart to total balance component.
+            - installation : npm install chart.js --save-dev
+            - integration with react : npm i react-chartjs-2 --save-dev 
+            - create doughnut chart component + add default data for doughnut chart.
